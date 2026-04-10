@@ -3,7 +3,7 @@ cask "cinzel" do
   name "cinzel"
   desc "Bidirectional converter between HCL and CI/CD YAML"
   homepage "https://github.com/yldio/cinzel"
-  version "0.3.4"
+  version "0.3.5"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "cinzel" do
   on_macos do
     on_intel do
       url "https://github.com/yldio/cinzel/releases/download/v#{version}/cinzel_#{version}_darwin_amd64.tar.gz"
-      sha256 "80f11caba53ccc699dbfed4befc8efcb85134b65a99dda39196dab900eac3528"
+      sha256 "f2f3a91194e83941c952f8a0048c35f481f1c569569042a8f4623e9a56033954"
     end
     on_arm do
       url "https://github.com/yldio/cinzel/releases/download/v#{version}/cinzel_#{version}_darwin_arm64.tar.gz"
-      sha256 "aae7a887d95c213e7d3b3640031a50dd53d5d57c213e1b42a6dc3c5901979a92"
+      sha256 "b1b8614ebf345a790b14d6276ac8a8e47e8bbcc14a1b4b8109270fef6e9fc2fe"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/yldio/cinzel/releases/download/v#{version}/cinzel_#{version}_linux_amd64.tar.gz"
-      sha256 "edc0551ef5696f6a4fd1e69adfabbc8d34a660bb5d3459e5e326e9ee5121267d"
+      sha256 "50893e38595e2b90e03751852583815eeea0978a86a8c4a026c3149e288a3620"
     end
     on_arm do
       url "https://github.com/yldio/cinzel/releases/download/v#{version}/cinzel_#{version}_linux_arm64.tar.gz"
-      sha256 "852b25590cd3553873edcbd0aadb8b1c46b384ace52787e59b1b02184e288fb8"
+      sha256 "3f2a44e018c8c443fc1bd0636a3a20a4b3efe430e09a5f1af8c9092950ab3ed2"
     end
   end
 
